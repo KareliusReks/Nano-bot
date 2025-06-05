@@ -10,14 +10,14 @@ from telegram.ext import (
 import openpyxl
 from openpyxl.utils import get_column_letter
 
-TOKEN = "7937094483:AAHi6-OUns9XstVRomhvIbaXDOpvCkhJ_Po"
+TOKEN = "" #Введите токен своего телеграмм-бота
 DB_FILE = "users.db"
 EXCEL_FILE = "данные.xlsx"
 ADMIN_EXCEL_FILE = "админы.xlsx"
-
-SUPERADMIN_LOGIN = "kudratullomuradov93@gmail.com"
-SUPERADMIN_PASS = "KareliusReks"
-SUPERADMIN_FIO = "Мурадов Кудратулло Абдурахмоновович"
+#Установите данные суперадмина
+SUPERADMIN_LOGIN = "" #установите логин суперадмина
+SUPERADMIN_PASS = "" #установите пароль суперадмина
+SUPERADMIN_FIO = "" #укажите ФИО суперадмина
 
 (
     LOGIN, PASS, MENU,
